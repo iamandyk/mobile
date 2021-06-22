@@ -4,7 +4,10 @@ import { Button, Input, Text, Div } from "react-native-magnus";
 
 export default function SignUp() {
   return (
-    <Div p="sm" style={{ height: "100%" }}>
+    <Div
+      p="sm"
+      style={{ flex: 1, alignItems: "center", justifyContent: "center" }}
+    >
       <Input placeholder="email" />
       <Input placeholder="password" />
       <Input placeholder="username" />
